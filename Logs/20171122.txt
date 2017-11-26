@@ -1,0 +1,99 @@
+2017-11-22T20:54:30.920Z :
+	url : /api/articles/readall
+	body : {
+                "sortField":"id"
+}
+2017-11-22T20:54:45.425Z :
+	url : /api/articles/readall
+	body : {
+                "sortField":"title"
+}
+2017-11-22T20:55:04.807Z :
+	url : /api/articles/readall
+	body : {
+                "sortField":"text"
+}
+2017-11-22T20:58:46.595Z :
+	url : /api/articles/readall
+	body : {
+                "includeDeps": false
+}
+2017-11-22T20:58:58.800Z :
+	url : /api/articles/readall
+	body : {
+                "includeDeps": true
+}
+2017-11-22T20:59:07.102Z :
+	url : /api/articles/readall
+	body : {
+                
+}
+2017-11-22T20:59:34.195Z :
+	url : /api/articles/readall
+	body : {
+                "includeDeps": true
+}
+2017-11-22T21:01:20.779Z :
+	url : /api/articles/readall
+	body : {
+                "includeDeps": false
+}
+2017-11-22T21:02:43.449Z :
+	url : /api/articles/readall
+	body : {
+                "includeDeps": false
+}
+2017-11-22T21:02:53.312Z :
+	url : /api/articles/readall
+	body : {
+                "includeDeps": true
+}
+2017-11-22T21:04:01.251Z :
+	url : /api/articles/readall
+	body : {
+                "includeDeps": false
+}
+2017-11-22T21:04:17.280Z :
+	url : /api/articles/readall
+	body : {
+        
+}
+2017-11-22T21:04:53.554Z :
+	url : /api/articles/readall
+	body : {
+        "page": 2,
+        "limit":1
+}
+2017-11-22T21:05:09.710Z :
+	url : /api/articles/readall
+	body : {
+        "sortField": "author"
+}
+2017-11-22T21:05:16.144Z :
+	url : /api/articles/readall
+	body : {
+        "sortField": "author"
+}
+2017-11-22T21:05:23.043Z :
+	url : /api/articles/readall
+	body : {
+        "sortField": "id"
+}
+2017-11-22T21:05:39.232Z :
+	url : /api/articles/readall
+	body : {
+        "sortField": "id",
+        "sortOrder": "asc"
+}
+2017-11-22T21:05:48.230Z :
+	url : /api/articles/readall
+	body : {
+        "sortField": "author",
+        "sortOrder": "asc"
+}
+2017-11-22T21:06:06.672Z :
+	url : /api/articles/readall
+	body : {
+        "sortField": "title",
+        "sortOrder": "asc"
+}
