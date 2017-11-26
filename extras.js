@@ -49,3 +49,18 @@ extras.send = function (req, res, payload, cb) {
         }
     }) + "]"));
 };
+
+extras.getResponse = function (contentType, body) {
+    return {
+        "contentType" : contentType,
+        "body"        : body
+    }
+};
+
+extras.contentTypes = {
+    'html'  : 'text/html',
+    'js'    : 'text/javascript',
+    'json'  : 'application/json',
+    'css'   : 'text/css',
+    'text'  : 'text/plain'
+};

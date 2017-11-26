@@ -1,0 +1,26 @@
+<br>
+
+<head>
+    <title>Create New Article</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+
+<br>
+<textarea id="art" rows="20" cols="40"></textarea>
+</br>
+<input type="button" onclick="createNewArticle()" value='Add new article'>
+</br>
+<a href="index.html">Просмотреть статьи</a>
+</body>
+<script>
+    function createNewArticle() {
+        let article = document.getElementById('art').value;
+        console.log(article);
+        $.post("/api/articles/create", article, () => {
+            alert('Create successful');
+        });
+    }
+</script>
+
+</html>

@@ -6,6 +6,7 @@ const port = 3001;
 const articles=require("./article");
 const comments=require("./comments");
 const extras=require("./extras");
+const static = require('./static');
 
 const handlers = {
   '/api/articles/readall': articles.readall,
@@ -15,7 +16,13 @@ const handlers = {
   '/api/articles/delete': articles.delete,
   '/api/comments/create': comments.create,
   '/api/comments/delete': comments.delete,
-    '/api/logs'          : extras.send
+    '/api/logs'          : extras.send,
+    '/' :           static.defaulthtml,
+    '/index.html' : static.defaulthtml,
+    '/form.html' :  static.formhtml,
+    '/app.js' :     static.indexjs,
+    '/form.js' :    static.formjs,
+    '/site.css' :   static.sitecss
 };
 
 const server = http.createServer((req, res) => {
